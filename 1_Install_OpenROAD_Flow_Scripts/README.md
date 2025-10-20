@@ -15,6 +15,9 @@ cmd : sudo ./setup.sh
 
 step 3: Build OpenROAD
 cmd: ./build_openroad.sh --local
+![build cmd](./assets/build_cmd_start.png)
+
+![building stage](./assets/building2.png)
 
 step 4: Verify installation
 cmd: 

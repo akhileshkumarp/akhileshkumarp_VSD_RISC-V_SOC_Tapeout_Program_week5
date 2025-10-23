@@ -28,7 +28,9 @@ source ./env.sh
 yosys -help  
 openroad -help
 
-yosys_openroad_installed.png
+if yosys is not installed properly then go inside yosys folder within the tools, and run "make" insdie the ./tools/yosys/ folder
+
+![openroad yosys installed](./assets/yosys_openroad_installed.png)
 
 verify the above steps.
 This concludes the installation of the OpenROAD.

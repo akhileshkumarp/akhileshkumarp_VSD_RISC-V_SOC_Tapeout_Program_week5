@@ -15,15 +15,20 @@ cmd : sudo ./setup.sh
 
 step 3: Build OpenROAD
 cmd: ./build_openroad.sh --local
+(use "./build_openroad.sh --local --threads 1" if you are facing build errors at the end because of memory/resourse issues)
+
 ![build cmd](./assets/build_cmd_start.png)
 
 ![building stage](./assets/building2.png)
+
 
 step 4: Verify installation
 cmd: 
 source ./env.sh
 yosys -help  
 openroad -help
+
+yosys_openroad_installed.png
 
 verify the above steps.
 This concludes the installation of the OpenROAD.

@@ -1,5 +1,8 @@
-OpenROAD installation guide:
+OpenROAD is an open-source, autonomous physical design flow for digital integrated circuits from RTL to GDSII. It provides a complete toolchain for chip design including synthesis, floorplanning, placement, routing, and verification. 
+Official website: [https://openroad.readthedocs.io](https://openroad.readthedocs.io) 
+GitHub: [https://github.com/The-OpenROAD-Project](https://github.com/The-OpenROAD-Project) 
 
+OpenROAD installation guide:
 
 step 1 : Clone openroad repo 
 cmd : git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
@@ -31,6 +34,9 @@ openroad -help
 if yosys is not installed properly then go inside yosys folder within the tools, and run "make" insdie the ./tools/yosys/ folder
 
 ![openroad yosys installed](./assets/yosys_openroad_installed.png)
+
+Errors while installations can be debugged/fixed by using the ways mentioned in the document: 
+[OpenROAD Error Fixes Guidance](../doc/openroad_error_fixes_guidance_Akhilesh.pdf)
 
 verify the above steps.
 This concludes the installation of the OpenROAD.
